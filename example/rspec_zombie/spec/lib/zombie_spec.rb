@@ -15,14 +15,18 @@ describe Zombie do
 
   it "is not alive" do
     zombie = Zombie.new
-    zombie.alive.should == false # should modifier, < matcher
+    zombie.alive.should == false 
   end
 
-  it "is not rotting" do
+  it "is rotting" do
     zombie = Zombie.new
-    zombie.rotting.should == true # should modifier, < matcher
+    zombie.rotting.should == true
   end
 
+  it "is has a height above 5" do
+    zombie = Zombie.new
+    zombie.height.should be > 5
+  end
 
 end
 
