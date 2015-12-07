@@ -13,6 +13,12 @@ describe Zombie do
     zombie.brains.should < 1 # should modifier, < matcher
   end
 
+  it "is not alive" do
+    zombie = Zombie.new
+    zombie.alive.should == false # should modifier, < matcher
+  end
+
+
 end
 
 # rspec spec/lib/zombie_spec.rb # rspec zombie_spec.rb
