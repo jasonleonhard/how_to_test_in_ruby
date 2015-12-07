@@ -12,3 +12,10 @@ module Multiple
     multiple % num == 0 
   end
 end
+
+class ZombifierTest < Test::Unit::TestCase
+  def test_zombify_returns_something
+    z = Zombifier.new('make me a zombie')
+    assert_not_nil z.zombify, "zombify is returning nil"
+  end
+end
