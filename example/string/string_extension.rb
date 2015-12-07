@@ -5,7 +5,7 @@ class String
   end
 
   def humanize
-    "Yo"
+    self.downcase.capitalize
   end
 
 end
