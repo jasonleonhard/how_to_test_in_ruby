@@ -27,6 +27,11 @@ class StringExtensionTest < Test::Unit::TestCase
     assert_match /brains/, "LIKES ME BRAINS".humanize # regex, string
   end
 
+  def test_just_for_brains_brackets
+    assert_match /[brains]/, "LIKES ME BRAINS".humanize # regex, string
+  end
+
+
 end
 
 # ruby -I. string_extension_test.rb 
