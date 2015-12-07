@@ -15,6 +15,10 @@ class StringExtensionTest < Test::Unit::TestCase
     assert_respond_to "blah", :humanize # object, method
   end
 
+  def test_humanize_returns_something
+    assert_respond_to "Yo",.humanize, "humanize is returning nil"
+  end
+
 
 end
 
