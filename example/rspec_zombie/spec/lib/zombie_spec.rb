@@ -18,6 +18,11 @@ describe Zombie do
     zombie.alive.should == false # should modifier, < matcher
   end
 
+  it "is not rotting" do
+    zombie = Zombie.new
+    zombie.rotting.should == true # should modifier, < matcher
+  end
+
 
 end
 
