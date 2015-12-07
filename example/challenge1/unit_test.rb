@@ -34,4 +34,10 @@ class ZombifierTest < Test::Unit::TestCase
     assert_raise(RuntimeError) { z.zombify }
   end
 
+  def test_zombify_returns_a_string
+    z = Zombifier.new('I like knees')
+    assert_kind_of(String, z.zombify)
+  end
+end
+
 end
