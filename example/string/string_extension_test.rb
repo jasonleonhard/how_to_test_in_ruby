@@ -16,7 +16,11 @@ class StringExtensionTest < Test::Unit::TestCase
   end
 
   def test_humanize_returns_something
-    assert_not_nil "Yo".humanize, "humanize is returning nil"
+    assert_not_nil "Yo".humanize, "humanize is returning nil" # optional error msg
+  end
+
+  def test_humanize
+    assert_equal "Likes me brains!", "LIKES ME BRAINS!".humanize # expected, actual
   end
 
 end
