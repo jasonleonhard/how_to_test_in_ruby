@@ -23,9 +23,15 @@ describe Zombie do
     zombie.rotting.should == true
   end
 
-  it "is has a height above 5" do
+  it "has a height above 5" do
     zombie = Zombie.new
     zombie.height.should be > 5
+  end
+
+  # ? is predicate method
+  it 'is hungry' do
+    zombie = Zombie.new
+    zombie.should be_hungry # predicate matcher
   end
 
 end

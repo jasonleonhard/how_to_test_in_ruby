@@ -8,4 +8,9 @@ class Zombie
     @rotting = true
     @height = 6
   end
+
+  def hungry?
+    true
+  end
+
 end
