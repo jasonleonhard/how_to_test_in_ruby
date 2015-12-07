@@ -1,4 +1,4 @@
-philosopies
+Philosophies
 1. none
 2. verification testing
 3. test first
@@ -6,4 +6,4 @@ philosopies
 
 unit testing (pieces of source tested)
 
-test::unit is easiest... and minitest ~ same
+test::unit is easiest... and minitest ~ same in rails
