@@ -4,4 +4,7 @@ class String
     self =~ /^\d+$/
   end
 
+  def humanize
+  end
+
 end
