@@ -23,6 +23,10 @@ class StringExtensionTest < Test::Unit::TestCase
     assert_equal "Likes me brains!", "LIKES ME BRAINS!".humanize # expected, actual
   end
 
+  def test_just_for_brains
+    assert_match /brains/, "LIKES ME BRAINS".humanize # regex, string
+  end
+
 end
 
 # ruby -I. string_extension_test.rb 
