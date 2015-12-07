@@ -6,3 +6,9 @@ class ConditionalTest < Test::Unit::TestCase
     assert Multiple.multiple_of?(10,5) 
   end
 end
+
+module Multiple
+  def self.multiple_of?(multiple,num)
+    multiple % num == 0 
+  end
+end
