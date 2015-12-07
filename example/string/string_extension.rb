@@ -5,7 +5,12 @@ class String
   end
 
   def humanize
-    self.downcase.capitalize
+    if self =~ /zombie/
+      raise RuntimeError
+    else
+      self.downcase.capitalize
+    end
+    
   end
 
 end

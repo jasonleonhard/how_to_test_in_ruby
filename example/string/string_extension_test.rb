@@ -31,6 +31,9 @@ class StringExtensionTest < Test::Unit::TestCase
     assert_match /[brains]/, "LIKES ME BRAINS".humanize # regex, string
   end
 
+  def test_zombies_in_humanize_raise_error
+    assert_raise(RuntimeError) { "zombie".humanize }
+  end
 
 end
 
