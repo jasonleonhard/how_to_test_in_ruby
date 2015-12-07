@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe "A Zombie" do
+describe Zombie do
   # examples (aka tests)
   it "is named Ash"
 end
