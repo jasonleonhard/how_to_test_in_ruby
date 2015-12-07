@@ -11,10 +11,6 @@ class StringExtensionTest < Test::Unit::TestCase
     assert !"Blah".is_number?
   end
 
-
 end
 
 # ruby -I. string_extension_test.rb 
-  # gives load path     must use -I.
-
-# after passing refactor
