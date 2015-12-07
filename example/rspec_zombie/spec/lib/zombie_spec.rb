@@ -34,6 +34,15 @@ describe Zombie do
     zombie.should be_hungry # predicate matcher
   end
 
+  # # two ways to make pending so you can 1 by 1 make pass
+  # xit 'pending so will not fail for now' do
+  #   bla bla
+  # end
+
+  # it 'can also show pending this way' do
+  #   pending
+  # end
+
 end
 
 # rspec spec/lib/zombie_spec.rb # rspec zombie_spec.rb

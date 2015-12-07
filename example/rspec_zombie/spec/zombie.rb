@@ -14,3 +14,5 @@ class Zombie
   end
 
 end
+
+# http://rspec.codeschool.com/levels/1/challenges/1
