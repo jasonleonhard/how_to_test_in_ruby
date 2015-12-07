@@ -29,4 +29,9 @@ class ZombifierTest < Test::Unit::TestCase
     assert_equal "I LOVE YOUR FEET BRAINS", z.zombify, "zombify should upcase and add 'BRAINS'"
   end
 
+  def test_brains_in_zombify_raises_error
+    z = Zombifier.new('BRAINS')
+    assert_raise(RuntimeError) { z.zombify }
+  end
+
 end
