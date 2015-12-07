@@ -5,8 +5,8 @@ describe Zombie do
   # examples (aka tests)
   it "is named Ash" do
     zombie = Zombie.new
-    zombie.new.should == 'Ash' # expectation, not assertion 
+    zombie.name.should == 'Ash' # expectation, not assertion 
   end
 end
 
-# rspec spec/lib/zombie_spec.rb
+# rspec spec/lib/zombie_spec.rb # rspec zombie_spec.rb
