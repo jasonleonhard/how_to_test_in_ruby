@@ -5,6 +5,7 @@ class String
   end
 
   def humanize
+    "Yo"
   end
 
 end
