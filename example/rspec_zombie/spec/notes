@@ -1,0 +1,12 @@
+http://rspec.codeschool.com/levels/1
+mkdir rspec_zombie
+cd rspec_zombie
+gem install rspec
+rspec --init 
+# source in /lib/zombie.rb
+# spec/lib/zombie_spec.rb
+require "spec_helper"
+describe "A zombie" do
+  # examples (aka tests)
+  
+end
