@@ -18,4 +18,9 @@ class ZombifierTest < Test::Unit::TestCase
     z = Zombifier.new('make me a zombie')
     assert_not_nil z.zombify, "zombify is returning nil"
   end
+
+  def test_zombify_brains
+    z = Zombifier.new('I love your arms')
+    assert_match /BRAINS/, z.zombify     
+  end
 end
