@@ -5,6 +5,6 @@ class BooleanTest < Test::Unit::TestCase
     assert true
   end
 end
-# ruby boolean_test.rb 
+# ruby example/boolean_test/boolean_test.rb
 
 # http://rtfz.codeschool.com/levels/1

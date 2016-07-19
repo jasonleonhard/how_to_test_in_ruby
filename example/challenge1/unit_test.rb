@@ -1,5 +1,5 @@
 require 'test/unit'
-require 'conditional_test'
+# require 'conditional_test'
 
 class ConditionalTest < Test::Unit::TestCase
   def test_multiple_of
@@ -40,4 +40,4 @@ class ZombifierTest < Test::Unit::TestCase
   end
 end
 
-end
+# ruby example/challenge1/unit_test.rb

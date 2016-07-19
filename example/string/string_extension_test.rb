@@ -1,5 +1,5 @@
 require "test/unit"
-require "string_extension"
+# require "string_extension"
 
 class StringExtensionTest < Test::Unit::TestCase
 
@@ -39,4 +39,4 @@ class StringExtensionTest < Test::Unit::TestCase
   # also all can take optional string param
 end
 
-# ruby -I. string_extension_test.rb 
+# ruby -I. example/string/string_extension_test.rb 

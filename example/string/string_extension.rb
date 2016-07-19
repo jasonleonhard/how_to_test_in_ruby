@@ -10,7 +10,6 @@ class String
     else
       self.downcase.capitalize
     end
-    
   end
 
 end
